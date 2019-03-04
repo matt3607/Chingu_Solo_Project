@@ -20,5 +20,3 @@ exampleJavaScriptFn();
 // it will select the HTML element with id='subtext'
 // then it will color its background blue
 changeSubtextBackground();
-
-
