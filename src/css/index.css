@@ -633,6 +633,48 @@ transition: background-color .3s ease-in-out,transform .3s ease-in-out,-webkit-t
   color: hsla(0,0%,100%,.75);
 }
 
+/*// Back to Top Button Styling*/
+
+#btn-top {
+  position:fixed;
+  bottom: 3em;
+  right: 3em;
+  /*background-color: rgba(255,255,255, .9);*/
+  background-color: rgba(64, 89, 107, 0.9);
+  color: #313943;
+  border:none;
+  border-radius: 5px;
+  padding: 1em;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 700;
+  box-shadow: 0 0 2em 0 rgba(0,0,0, .25);
+  transition: all .3s ease-in-out;
+  display: inline-block;
+  opacity: 0;
+  text-decoration: none;
+  font-size: .75em;
+}
+
+#btn-top:hover {
+  background-color: #40596b;
+  padding: 1em 2em;
+  }
+
+#btn-top.visible {
+  opacity: 1;
+}
+
+.fas.fa-arrow-circle-up {
+/*  color: rgba(0,0,0, 0.75);*/
+  opacity: 0.25;
+  color:white;
+  font-size:2rem;
+}
+
+#btn-top:focus i, #btn-top:hover i {
+  opacity: 0.75;
+}
 
 /*Footer CSS END */
 
